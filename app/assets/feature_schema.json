@@ -1,0 +1,20 @@
+{
+  "features": [
+    "Temperature",
+    "Humidity",
+    "Wind Speed",
+    "general diffuse flows",
+    "diffuse flows",
+    "Zone 1 Power Consumption",
+    "Zone 2  Power Consumption",
+    "Zone 3  Power Consumption",
+    "hour",
+    "weekday",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "count": 14,
+  "order_strict": true
+}
