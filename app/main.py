@@ -9,7 +9,7 @@ from .inference import try_load_model, load_scaler, load_feature_schema, prepare
 app = FastAPI(title="PowerCast Forecast API")
 
 MODEL = None
-LOAD_INFO: Dict | None = None
+LOAD_INFO: Optional[Dict] = None   # ✅ Python 3.9 compatible
 Y_SCALER = None
 FEATURE_SCHEMA = None
 DEVICE = None
